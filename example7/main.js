@@ -48,10 +48,12 @@ d3.csv("output.csv", function(error, data) {
   // Add the scatterplot
   svg.selectAll("dot")
       .data(data)
-    .enter().append("circle")
-      .attr("r", 5)
+    .enter()
+    .append("circle")
+      .attr("r", 3)
       .attr("cx", function(d) { return x(d.date); })
-      .attr("cy", function(d) { return y(d.approve); });
+      .attr("cy", function(d) { return y(d.approve); })
+      .style("fill", function(d) { return "#24A19C"});
 
   // Add the X Axis
   svg.append("g")

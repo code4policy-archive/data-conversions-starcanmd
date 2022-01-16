@@ -1,5 +1,7 @@
 # conversions
 
+**COMPLETED EXAMPLE: EXAMPLE 7**
+
 https://code4policy.github.io/conversions/
 
 1. clone your repo into `~/Development` and `cd` into it (PLEASE FORK if you did not accept this assignment through Github classroom)
